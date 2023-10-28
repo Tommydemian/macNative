@@ -77,3 +77,42 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# Styling: 
+
+generalmente vas a tener un file/folder named **theme** donde de alguna manera tendrias lo que se llamaria comunmente css vars.
+
+- *Note*: Sostene una naming convention para styles, i.e:
+```javascript
+const styles = StyleSheet.create({
+  moodPickerContainer: {
+    // styles
+  },
+  moodTitle: {
+    // styles
+  },
+  moodItemWrapper: {
+    // styles
+  },
+  moodItem: {
+    // styles
+  },
+  moodItemSelected: {
+    // styles
+  },
+  moodDescription: {
+    // styles
+  },
+  submitButton: {
+    // styles
+  },
+  submitButtonText: {
+    // styles
+  },
+});
+
+```
+
+# Context: 
+Al igual que Redux el patron es proveedor/consumidor => **Provider/Consumer** 
+> Es una buena ide sumarlo a mi skillset, luego deberia entender mejor cuando y por que usar cada uno. 

@@ -1,9 +1,9 @@
 import React from 'react';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 // Components
-import {Home} from '../screens/Home.screen';
-import {History} from '../screens/History.screen';
-import {Analytics} from '../screens/Analitycs.screen';
+import { Home } from '../screens/Home.screen';
+import { History } from '../screens/History.screen';
+import { Analytics } from '../screens/Analitycs.screen';
 
 type BottomTabsParams = {
   Home: React.FC;

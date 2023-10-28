@@ -1,18 +1,16 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {BottomTabsNavigator} from './navigation/BottomTabs.navigator';
+import { NavigationContainer } from '@react-navigation/native';
+import { BottomTabsNavigator } from './navigation/BottomTabs.navigator';
 // store
-import {store} from './store/index';
-import {Provider} from 'react-redux';
+import { store } from './store/index';
+import { Provider } from 'react-redux';
 
 export const App: React.FC = () => {
   return (
-    <Provider store={store}>
-      <NavigationContainer>
-        <BottomTabsNavigator />
-      </NavigationContainer>
-    </Provider>
+    <NavigationContainer>
+      <BottomTabsNavigator />
+    </NavigationContainer>
   );
 };
 

@@ -7,6 +7,7 @@ module.exports = {
       'error',
       {
         quoteProps: 'as-needed',
+        bracketSpacing: true,
       },
     ],
   },
